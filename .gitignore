@@ -11,6 +11,9 @@ captures/
 *.apk
 *.aar
 *.png
+!**/ic_launcher.png
+!**/ic_launcher_round.png
+!app_icon.png
 *.txt
 *.md
 !README.md

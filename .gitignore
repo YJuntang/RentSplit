@@ -13,5 +13,7 @@ captures/
 *.png
 *.txt
 *.md
+!README.md
+!readme.md
 *.diff
 

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.rentsplit.app-mergeDebugResources-71:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/kal/.gradle/caches/8.11.1/transforms/15f8bd982db1528d5e002cd42df12c03/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

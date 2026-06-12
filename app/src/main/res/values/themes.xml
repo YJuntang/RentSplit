@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for Compose — must use AppCompat or MaterialComponents parent.
+         Using Theme.AppCompat.Light.NoActionBar which is available transitively via activity-compose -->
+    <style name="Theme.RentSplit" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Let Compose handle all the styling — window bg matches our dark Surface0 -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Startup splash theme using core-splashscreen -->
+    <style name="Theme.RentSplit.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0B0E14</item> <!-- dark background matching Surface0 -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.RentSplit</item>
+    </style>
+</resources>
